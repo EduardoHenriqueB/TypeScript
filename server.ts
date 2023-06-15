@@ -1,4 +1,4 @@
-class MinhaContaBancaria {
+class Conta{
   private sld: number;
 
   constructor(sldInicial: number) {
@@ -22,7 +22,7 @@ class MinhaContaBancaria {
 }
 
 (function() {
-  const conta = new MinhaContaBancaria(1000);
+  const conta = new Conta(1000);
   console.log(conta.getsld());
 
   conta.deposito(500);
